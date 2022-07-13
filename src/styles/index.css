@@ -1,3 +1,62 @@
-/* 
-    General Styles
-*/
+body {
+    height: 100vh;
+    background: #d9a7c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fffcdc, #d9a7c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.todo-container {
+    max-width: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    background: #FFEFBA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #FFEFBA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #FFEFBA);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    margin: 75px auto;
+    list-style: none;
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 32px;
+  }
+
+  #icons {
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Megrim';
+    font-size: 75px;
+    margin-top: 10px;
+}
+
+#listitem {
+    cursor: pointer;
+    font-size: 35px;
+    margin:0%;
+    margin-top: 10px;
+}
+
+#remindbox {
+    background-color: rgba(220, 182, 255, 0.257);
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+    margin-top: 285px;
+    color: rgba(155, 155, 155, 0.622);
+}
